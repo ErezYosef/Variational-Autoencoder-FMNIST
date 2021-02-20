@@ -1,0 +1,29 @@
+ ---- Autoencoder(x_dim=784, z_dim=50, h_dim=[600, 600])  :
+ ---- epochs:25,	lr: 0.001,	wd: 0.1  :
+ ---- regular  :
+Epoch:0,	Loss: 324.05,	tstLoss: 292.09
+Epoch:1,	Loss: 284.82,	tstLoss: 282.44
+Epoch:2,	Loss: 276.49,	tstLoss: 275.74
+Epoch:3,	Loss: 272.34,	tstLoss: 272.41
+Epoch:4,	Loss: 270.47,	tstLoss: 272.73
+Epoch:5,	Loss: 269.05,	tstLoss: 269.90
+Epoch:6,	Loss: 268.08,	tstLoss: 269.59
+Epoch:7,	Loss: 267.09,	tstLoss: 268.51
+Epoch:8,	Loss: 266.21,	tstLoss: 267.83
+Epoch:9,	Loss: 265.27,	tstLoss: 266.58
+Epoch:10,	Loss: 264.41,	tstLoss: 266.59
+Epoch:11,	Loss: 263.83,	tstLoss: 265.93
+Epoch:12,	Loss: 263.14,	tstLoss: 264.55
+Epoch:13,	Loss: 262.60,	tstLoss: 264.05
+Epoch:14,	Loss: 262.14,	tstLoss: 263.99
+Epoch:15,	Loss: 261.66,	tstLoss: 263.36
+Epoch:16,	Loss: 261.40,	tstLoss: 262.60
+Epoch:17,	Loss: 261.09,	tstLoss: 262.56
+Epoch:18,	Loss: 260.67,	tstLoss: 262.41
+Epoch:19,	Loss: 260.34,	tstLoss: 261.61
+Epoch:20,	Loss: 259.96,	tstLoss: 261.44
+Epoch:21,	Loss: 259.72,	tstLoss: 260.82
+Epoch:22,	Loss: 259.51,	tstLoss: 261.32
+Epoch:23,	Loss: 259.36,	tstLoss: 260.62
+Epoch:24,	Loss: 258.92,	tstLoss: 261.04
+Total Time: 184.05

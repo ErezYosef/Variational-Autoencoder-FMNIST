@@ -47,23 +47,23 @@ The rest used to test the performance:
 
 <img src="AE/images/table1.png" width="425" />
 
-## Image reconstraction:
-The reconstracted images at the output of the *Decoder* with respect to the images input to the *Encoder*:
+## Images Reconstruction:
+The reconstructed images at the output of the *Decoder* with respect to the images input to the *Encoder*:
 
  <p align="center">
- <img src="AE/images/gt.png" width="350" /> <img src="AE/images/rec.png" width="350"/> 
-  <i>GT and GEN
+ <img src="AE/images/gt.png" width="400" /> <img src="AE/images/rec.png" width="400"/><br> 
+  <i>Variational-Autoencoder Reconstruction: Encoder input (left) and Decoder output (right)
 </i>
 </p>
 
 ## Data Generation:
-Using Variational-Autoencoder we can generate new samples from the latent space.
+*Using Variational-Autoencoder we can generate new samples from the latent space:*
  
  <img src="AE/images/vae.png" width="500"><br>
   <i>New data semples by Variational-Autoencoder.
 </i>
 
-Using classic Autoencoder, we cant generate samples from the latent space:
+*Using classic Autoencoder, we cant generate samples from the latent space:*
 
  <img src="AE/images/ae.png" width="500"><br>
   <i>New data semples by Autoencoder.

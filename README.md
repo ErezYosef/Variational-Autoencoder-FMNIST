@@ -3,6 +3,7 @@ Variational-Autoencoder on FMNIST dataset
 erez
 ## Method:
 We implemented Variational-Autoencoder:
+
 *Semi-Supervised Learning with Deep Generative Models, DP. Kingma*,
 In Neural Information Processing Systems, 2014. [paper](https://arxiv.org/abs/1406.5298)
 
@@ -15,6 +16,9 @@ Architecture details: (Based on M1 scheme in the paper)
 We use the loss function:
 
 <img src="AE/images/4.png" width="650"><br>
+  <i style="font-size:3vw;">Semi-Supervised Learning with Deep Generative Models, DP. Kingma*,
+In Neural Information Processing Systems, 2014.
+</i>
 
 To improve the results, we used *Disentangled Variational Encoder-Decoder* with `beta` parameter :
 

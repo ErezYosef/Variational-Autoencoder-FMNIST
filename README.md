@@ -17,7 +17,7 @@ We use the loss function:
 
  <p align="center">
 <img src="AE/images/4.png" width="650"><br>
-  <i style="font-size:10vw;">Semi-Supervised Learning with Deep Generative Models, DP. Kingma*,
+  <i">Semi-Supervised Learning with Deep Generative Models, DP. Kingma,<br>
 In Neural Information Processing Systems, 2014.
 </i>
 </p>
@@ -35,7 +35,7 @@ To improve the results, we used *Disentangled Variational Encoder-Decoder* with 
 * Optimization using adam algorithm, with `lr=0.001` and `wd=0.1`
 
  <p align="center">
- <img src="AE/images/6.png" width="500"><br>
+ <img src="AE/images/6.png" width="550"><br>
   <i>Training loss on test set and train set.
 </i>
 </p>
@@ -59,7 +59,7 @@ The rest used to test the performance:
 The reconstructed images at the output of the *Decoder* with respect to the images input to the *Encoder*:
 
  <p align="center">
- <img src="AE/images/gt.png" width="400" /> <img src="AE/images/rec.png" width="400"/><br> 
+ <img src="AE/images/gt.png" width="350" /> <img src="AE/images/rec.png" width="350"/><br> 
   <i>Variational-Autoencoder Reconstruction: Encoder input (left) and Decoder output (right)
 </i>
 </p>

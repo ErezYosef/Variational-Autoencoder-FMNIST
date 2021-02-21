@@ -15,14 +15,18 @@ Architecture details: (Based on M1 scheme in the paper)
 
 We use the loss function:
 
+ <p align="center">
 <img src="AE/images/4.png" width="650"><br>
-  <i style="font-size:3vw;">Semi-Supervised Learning with Deep Generative Models, DP. Kingma*,
+  <i style="font-size:10vw;">Semi-Supervised Learning with Deep Generative Models, DP. Kingma*,
 In Neural Information Processing Systems, 2014.
 </i>
+</p>
 
 To improve the results, we used *Disentangled Variational Encoder-Decoder* with `beta` parameter :
 
+ <p align="center">
 <img src="AE/images/5.png" width="400"><br>
+</p>
 
 ## Training:
 * We used Fashion MNIST dataset.

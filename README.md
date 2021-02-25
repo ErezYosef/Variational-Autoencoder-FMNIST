@@ -7,8 +7,8 @@ Deep Learning Course 2020, **Tel Aviv university, ISRAEL**.
 We implemented Variational-Autoencoder:
 
  <p align="center">
-*Semi-Supervised Learning with Deep Generative Models,<br> DP. Kingma*,
-In Neural Information Processing Systems, 2014. [paper](https://arxiv.org/abs/1406.5298)
+<i>Semi-Supervised Learning with Deep Generative Models, DP. Kingma</i>,<br>
+In Neural Information Processing Systems, 2014. <a href="https://arxiv.org/abs/1406.5298">paper</a>
 </p>
 
 Architecture details: (Based on M1 scheme in the paper)
@@ -21,7 +21,7 @@ We use the loss function:
 
  <p align="center">
 <img src="AE/images/4.png" width="650"><br>
-  <i">Semi-Supervised Learning with Deep Generative Models, DP. Kingma,<br>
+  <i>Semi-Supervised Learning with Deep Generative Models, DP. Kingma,<br>
 In Neural Information Processing Systems, 2014.
 </i>
 </p>
@@ -48,6 +48,7 @@ To improve the results, we used *Disentangled Variational Encoder-Decoder* with 
 We used SVM for classification (in the latent space).
 We took only 100, 600, 1000 and 3000 samples to fit the SVM.
 The rest used to test the performance:
+
  <p align="center">
  <img src="AE/runs/Jun20beta0.005/SVM_results_100_-1.png" width="350" /> <img src="AE/runs/Jun20beta0.005/SVM_results_600_-1.png" width="350"/>
  <img src="AE/runs/Jun20beta0.005/SVM_results_1000_-1.png" width="350" /> <img src="AE/runs/Jun20beta0.005/SVM_results_3000_-1.png" width="350"/><br> 
@@ -60,6 +61,10 @@ The rest used to test the performance:
 <img src="AE/images/table1.png" width="425" />
 
 We can see that we get better SVM classification when we use more labeled samples. 
+
+The following table shows the adventage of using `beta` parameter for **Disentangled Variational Encoder-Decoder** :
+
+<img src="AE/images/table1.png" width="425" />
 
 ## Images Reconstruction:
 The reconstructed images at the output of the *Decoder* with respect to the *Encoder* input images:

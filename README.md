@@ -66,7 +66,7 @@ We can see that we get better SVM classification when we use more labeled sample
 
 The following table shows the advantage of using `beta` parameter for **Disentangled Variational Encoder-Decoder** :
 
-<img src="AE/images/table2.png" width="425" />
+<img src="AE/images/table2.png" width="475" />
 
 ## Images Reconstruction:
 The reconstructed images at the output of the *Decoder* with respect to the *Encoder* input images:
@@ -84,7 +84,7 @@ The reconstructed images at the output of the *Decoder* with respect to the *Enc
   <i>New data semples by Variational-Autoencoder.
 </i>
 
-* **Note:** Using a classic Autoencoder, we can not generate new data samples from the latent space:*
+**Note:** *Using a classic Autoencoder, we can not generate new data samples from the latent space:*
 
  <img src="AE/images/ae.png" width="500"><br>
   <i>New data semples by Autoencoder.

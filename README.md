@@ -1,16 +1,20 @@
-# Variational Autoencoder - FMNIST
-Variational-Autoencoder on FMNIST dataset
-erez
+# Variational Autoencoder - Fashion MNIST
+Implementation of Variational-Autoencoder on Fashion MNIST dataset.
+Deep Learning Course 2020, **Tel Aviv university, ISRAEL**.
+**Creators: Shay Shomer Chai and Erez Yosef.
+
 ## Method:
 We implemented Variational-Autoencoder:
 
-*Semi-Supervised Learning with Deep Generative Models, DP. Kingma*,
+ <p align="center">
+*Semi-Supervised Learning with Deep Generative Models,<br> DP. Kingma*,
 In Neural Information Processing Systems, 2014. [paper](https://arxiv.org/abs/1406.5298)
+</p>
 
 Architecture details: (Based on M1 scheme in the paper)
 * Input dimension: 784
-* Hidden layers dimension: 600 (each) x Two layers
-* latent size: 50
+* Hidden layers dimension: Two layers x 600 (each)
+* Latent space size: 50
 * Weights initialized same as the paper with `std=0.001`
 
 We use the loss function:
@@ -47,7 +51,7 @@ The rest used to test the performance:
  <p align="center">
  <img src="AE/runs/Jun20beta0.005/SVM_results_100_-1.png" width="350" /> <img src="AE/runs/Jun20beta0.005/SVM_results_600_-1.png" width="350"/>
  <img src="AE/runs/Jun20beta0.005/SVM_results_1000_-1.png" width="350" /> <img src="AE/runs/Jun20beta0.005/SVM_results_3000_-1.png" width="350"/><br> 
-  <i>Confusion Matrix, SVM classification with: 100,600,1000,3000 samples.
+  <i>Confusion Matrix, SVM classification with: 100, 600, 1000, 3000 samples.
 </i>
 </p>
 
@@ -55,8 +59,10 @@ The rest used to test the performance:
 
 <img src="AE/images/table1.png" width="425" />
 
+We can see that we get better SVM classification when we use more labeled samples. 
+
 ## Images Reconstruction:
-The reconstructed images at the output of the *Decoder* with respect to the images input to the *Encoder*:
+The reconstructed images at the output of the *Decoder* with respect to the *Encoder* input images:
 
  <p align="center">
  <img src="AE/images/gt.png" width="350" /> <img src="AE/images/rec.png" width="350"/><br> 
@@ -71,7 +77,7 @@ The reconstructed images at the output of the *Decoder* with respect to the imag
   <i>New data semples by Variational-Autoencoder.
 </i>
 
-*Using classic Autoencoder, we cant generate samples from the latent space:*
+* **Note:** Using a classic Autoencoder, we can not generate new data samples from the latent space:*
 
  <img src="AE/images/ae.png" width="500"><br>
   <i>New data semples by Autoencoder.

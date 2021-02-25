@@ -1,7 +1,9 @@
 # Variational Autoencoder - Fashion MNIST
 Implementation of Variational-Autoencoder on Fashion MNIST dataset.
+
 Deep Learning Course 2020, **Tel Aviv university, ISRAEL**.
-**Creators: Shay Shomer Chai and Erez Yosef.
+
+**Creators: Shay Shomer Chai and Erez Yosef**.
 
 ## Method:
 We implemented Variational-Autoencoder:
@@ -62,9 +64,9 @@ The rest used to test the performance:
 
 We can see that we get better SVM classification when we use more labeled samples. 
 
-The following table shows the adventage of using `beta` parameter for **Disentangled Variational Encoder-Decoder** :
+The following table shows the advantage of using `beta` parameter for **Disentangled Variational Encoder-Decoder** :
 
-<img src="AE/images/table1.png" width="425" />
+<img src="AE/images/table2.png" width="425" />
 
 ## Images Reconstruction:
 The reconstructed images at the output of the *Decoder* with respect to the *Encoder* input images:

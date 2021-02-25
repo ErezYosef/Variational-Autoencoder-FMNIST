@@ -66,7 +66,7 @@ We can see that we get better SVM classification when we use more labeled sample
 
 The following table shows the advantage of using `beta` parameter for **Disentangled Variational Encoder-Decoder** :
 
-<img src="AE/images/table2.png" width="475" />
+<img src="AE/images/table2.png" width="500" />
 
 ## Images Reconstruction:
 The reconstructed images at the output of the *Decoder* with respect to the *Encoder* input images:
